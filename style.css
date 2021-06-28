@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+     font-family: 'Open Sans';
+     font-size: 10px;
+} 
+
+header {
+    width: 100%;
+    height: 45vh;
+    background-image: url(images/anton-jansson-R0QRY9h-Lgk-unsplash.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-content {
+    height: 100%;
+    padding: 1.5em;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.header-content h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.header-content p {
+    padding-right: 4em;
+    margin-top: 1.5em;
+    font-size: 1.55em;
+}
+
+.btn {
+    padding: .5em 1.5em;
+    border: 0;
+    margin-top: 2.5em;
+    background-color: #2490c1;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+/* Section One */
+/* .one {
+    padding: 0 .5em;
+} */
+
+.one-title {
+    padding: 2em 0 0 2em;
+}
+
+.one-title span {
+    color: #036d9e;
+    font-weight: bold;
+    font-size: 1.55em;
+}
+
+.one-title h1 {
+    font-size: 2.4em;
+}
+
+.one-content {
+    width: 100%;
+    height: 17vh;
+    margin-top: 3em;
+    /* margin-bottom: 10em; */
+    /* background: khaki; */
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one-content-img {
+    width: 10%;
+}
+
+.one-text {
+    width: 80%;
+    height: 100%;
+    /* background: #555; */
+}
+
+.one-text h2 {
+    font-size: 2em;
+}
+
+.one-text p {
+    /* width: 95%; */
+    padding-top: 1em;
+    font-size: 1.4em;
+}
