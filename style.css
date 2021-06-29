@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+     font-family: 'Roboto';
+     font-size: 10px;
+} 
+
+header {
+    width: 100%;
+    height: 45vh;
+    background-image: url(images/anton-jansson-R0QRY9h-Lgk-unsplash.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-content {
+    height: 100%;
+    padding: 1.5em;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.header-content h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.header-content p {
+    padding-right: 4em;
+    margin-top: 1.5em;
+    font-size: 1.55em;
+}
+
+.btn {
+    padding: .5em 1.5em;
+    border: 0;
+    margin-top: 2.5em;
+    background-color: #2490c1;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+/* Section One */
+/* .one {
+    padding: 0 .5em;
+} */
+
+.one-title {
+    padding: 2em 0 0 2em;
+}
+
+.one-title span {
+    color: #036d9e;
+    font-weight: bold;
+    font-size: 1.55em;
+}
+
+.one-title h1 {
+    font-size: 2.4em;
+}
+
+.one-content {
+    width: 100%;
+    height: 17vh;
+    margin-top: 3em;
+    /* margin-bottom: 10em; */
+    /* background: khaki; */
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one-content-img {
+    width: 45px;
+}
+
+.one-text {
+    width: 80%;
+    height: 100%;
+    /* background: #555; */
+}
+
+.one-text h2 {
+    font-size: 2em;
+}
+
+.one-text p {
+    /* width: 95%; */
+    padding-top: 1em;
+    font-size: 1.4em;
+}
+
+/* Section Two */
+ .two {
+    position: relative;
+    margin-top: 5em;
+} 
+
+.two-title {
+    padding: 2em 0 0 2em;
+}
+
+.two-title h1 {
+    font-size: 2.4em;
+    width: 75%;
+    margin-bottom: 1em;
+}
+
+.two-title span {
+    display: block;
+    width: 50%;
+    height: 5px;
+    background: #036d9e;
+    border-radius: 10px;
+}
+
+.two-title p {
+    margin-top: 1em;
+    font-size: 1.4em;
+    width: 87%;
+}
+
+.two-content {
+    width: 100%;
+    height: 10vh;
+    margin-top: 3em;
+    padding: .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two-content-img {
+    width: 45px;
+}
+
+.two-text {
+    width: 85%;
+}
+
+.two-text p {
+    font-size: 1.4em;
+}
+
+.two-btn {
+    padding: .5em 1.5em;
+    border: 0;
+    margin-top: 1em;
+    margin-left: 1em;
+    background-color: #2490c1;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.two-bg {
+    /* position: relative; */
+    width: 85%;
+    height: 35vh;
+    margin: 4em auto;
+    background-image: url(images/leon-Oalh2MojUuk-unsplash.jpg);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.two-bg::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20vh;
+    /* transform: translateX(-5%); */
+    background-color: #2490c1;
+    z-index: -1;
+}
+
+/* Section Three */
+.three-title {
+    text-align: center;
+}
+
+.three-title span {
+    display: inline-block;
+    color: #036d9e;
+    font-weight: bold;
+    font-size: 1.55em;
+}
+
+.three-title h1 {
+    font-size: 2.4em;
+    margin-top: .5em;
+}
+
+.three-content {
+    width: 100%;
+    height: 50vh;
+    margin: 5em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.three-content .content {
+    width: 30%;
+    text-align: center;
+    margin: 3.5em;
+}
+
+/* .three-content .content img {
+    width: 50%;
+} */
+
+.content figcaption {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1em;
+    letter-spacing: 1.5px;
+}
+
+.three-content .content:nth-of-type(1) figcaption {
+    position: relative;
+    left: -.2em;
+}
+
+.three-content .content:nth-of-type(3) figcaption {
+    position: relative;
+    left: -.2em;
+}
+
+.three-content .content:nth-of-type(4) figcaption {
+    position: relative;
+    left: -.6em;
+}
+
+
+
+
+
+
